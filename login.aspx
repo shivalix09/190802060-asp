@@ -38,7 +38,7 @@
          <asp:Button ID="Button1" runat="server" Text="Sign In"  
          OnClick="Button1_Click"/>
 		</form>
-		<p>Don't Have an Account ?<a href="#">Create an account</a></p>
+		<p>Don't Have an Account ?<a href="Registration.aspx">Create an account</a></p>
 </div>
 </div>
     <script src="src/js/bootstrap.js" type="text/jscript"></script>

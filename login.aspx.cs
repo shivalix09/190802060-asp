@@ -34,7 +34,7 @@ public partial class login : System.Web.UI.Page
                 Session["email"] = TextBox1.Text;
                 TextBox1.Text = string.Empty;
                 TextBox2.Text = string.Empty;
-                Response.Redirect("~/dashboard.aspx");
+                Response.Redirect("~/Dashboard.aspx");
             }
             else
             {

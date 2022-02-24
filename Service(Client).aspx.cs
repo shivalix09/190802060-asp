@@ -9,13 +9,6 @@ public partial class _Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        /*if (Session["email"] == null)
-        {
-            Response.Redirect("~/login.aspx");
-        }
-        else
-        {
-           Literal1.Text = "Welcome ," + Session["email"].ToString();
-        }*/
+
     }
 }
