@@ -1,174 +1,172 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ClientMasterPage.master" AutoEventWireup="true" CodeFile="Service(Client).aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
- <!-- inner banner -->
-    <section class="inner-banner py-5">
-        <div class="w3l-breadcrumb py-lg-5">
-            <div class="container pt-4 pb-sm-4">
-                <h4 class="inner-text-title font-weight-bold pt-sm-5 pt-4">Services</h4>
-                <ul class="breadcrumbs-custom-path">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><i class="fas fa-angle-right mx-2"></i>Services</li>
-                </ul>
+ <!-- breadcrum -->
+<section class="w3l-deal-breadcrum">
+  <div class="breadcrum">
+    <div class="container">
+      <p><a href="index.html">Home</a> &nbsp; / &nbsp; Services</p>
+    </div>
+  </div>
+</section>
+<!-- //breadcrum -->
+<div class="w3l-services1">
+  <section id="grids5-block" class="py-5">
+    <div class="container py-lg-3">
+      <div class="header-section mb-5">
+        <h3>What we provide</h3>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mt-0 grids5-info">
+          <a href="#url"><img src="assets/images/b1.jpg" class="img-fluid img-curve" alt="" /></a>
+          <h5>Business Deal</h5>
+          <h4><a href="#url">SEO Solutions</a></h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse? dolores impedit doloremque.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-md-0 mt-5 grids5-info">
+          <a href="#url"><img src="assets/images/b3.jpg" class="img-fluid img-curve" alt="" /></a>
+          <h5>Business Deal</h5>
+          <h4><a href="#url">Social Media</a></h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse? dolores impedit doloremque.</p>
+        </div>
+        <div class="col-lg-4 offset-md-3 offset-lg-0 col-md-6 mt-lg-0 mt-5 grids5-info">
+          <a href="#url"><img src="assets/images/b4.jpg" class="img-fluid img-curve" alt="" /></a>
+          <h5>Business Deal</h5>
+          <h4><a href="#url">Promotion Service</a></h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse? dolores impedit doloremque.</p>
+        </div>
+      </div>
+    </div>
+</div>
+<section class="w3l-services2" id="services">
+  <div class="mobile-info py-5">
+    <div class="container py-lg-3">
+      <div class="header-section mb-5 text-center">
+        <h3>Make Your Beautiful Sites</h3>
+      </div>
+      <div class="row mobile-info-inn mx-lg-0">
+        <div class="col-lg-4 mobile-right">
+          <div class="row mobile-right-grids mb-lg-5 mb-4">
+            <div class="col-2 mobile-right-icon">
+              <div class="mobile-icon">
+                <span class="fa fa-bar-chart"></span>
+              </div>
+            </div>
+            <div class="col-10 mobile-right-info">
+              <h6><a href="#url">Mobile Apps</a></h6>
+              <p>Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur
+                adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="row mobile-right-grids mb-lg-5 mb-4">
+            <div class="col-2 mobile-right-icon">
+              <div class="mobile-icon">
+                <span class="fa fa-laptop icon-fea"></span>
+              </div>
+            </div>
+            <div class="col-10 mobile-right-info">
+              <h6><a href="#url">Marketing</a></h6>
+              <p>Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur
+                adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="row mobile-right-grids">
+            <div class="col-2 mobile-right-icon">
+              <div class="mobile-icon">
+                <span class="fa fa-line-chart"></span>
+              </div>
+            </div>
+            <div class="col-10 mobile-right-info">
+              <h6><a href="#url">Web Development</a></h6>
+              <p>Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur
+                adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mobile-left">
+          <img src="assets/images/women.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-4 mobile-right">
+          <div class="row mobile-right-grids mb-lg-5 mb-4">
+            <div class="col-2 mobile-right-icon">
+              <div class="mobile-icon">
+                <span class="fa fa-envelope-o"></span>
+              </div>
+            </div>
+            <div class="col-10 mobile-right-info">
+              <h6><a href="#url">Optimization</a></h6>
+              <p>Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur
+                adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="row mobile-right-grids mb-lg-5 mb-4">
+            <div class="col-2 mobile-right-icon">
+              <div class="mobile-icon">
+                <span class="fa fa-signal icon-fea"></span>
+              </div>
+            </div>
+            <div class="col-10 mobile-right-info">
+              <h6><a href="#url">Web Design</a></h6>
+              <p>Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur
+                adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="row mobile-right-grids">
+            <div class="col-2 mobile-right-icon">
+              <div class="mobile-icon">
+                <span class="fa fa-paint-brush icon-fea"></span>
+              </div>
+            </div>
+            <div class="col-10 mobile-right-info">
+              <h6><a href="#url">Emailing</a></h6>
+              <p>Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur
+                adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- learn1 -->
+<section class="w3l-services3 py-5">
+    <div class="container py-lg-3 mt-3">
+        <div class="row align-items-center">
+            <div class="col-sm-6 book-info">
+                <h3 class="mb-md-4 mb-3">Business Support</h3>
+                <p class="mb-md-5 mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est repellendus illum harum quam nihil totam reprehenderit! Ut sed eveniet quos! Asperiores officia, repudiandae similique reiciendis, ab est magnam esse nesciunt ea fuga facere voluptatem.</p>
+                <a href="#URL" class="btn btn-outline-secondary theme-button">Read More</a>
+            </div>
+            <div class="col-sm-6">
+               <img src="assets/images/service1.png" class="img-fluid" alt="" />
             </div>
         </div>
-        <div class="shape">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280">
-                <path fill-opacity="1">
-                    <animate attributeName="d" dur="20000ms" repeatCount="indefinite"
-                        values="M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z; M0,160L48,181.3C96,203,192,245,288,234.7C384,224,480,160,576,133.3C672,107,768,117,864,138.7C960,160,1056,192,1152,197.3C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;												 M0,64L48,74.7C96,85,192,107,288,133.3C384,160,480,192,576,170.7C672,149,768,75,864,80C960,85,1056,171,1152,181.3C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
-                                                 M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;" />
-
-                </path>
-            </svg>
-        </div>
-    </section>
-    <!-- //inner banner -->
-
-    <!-- services block -->
-    <section class="home-about-w3l pt-lg-5 pb-5" id="features">
-        <div class="container py-md-5 py-4">
-            <div class="title-heading-w3 text-center mx-auto mb-4" style="max-width:500px;">
-                <h3 class="title-style">Services We're offering</h3>
+    </div>
+</section>
+<!-- //learn1 -->
+<!-- learn2 -->
+<section class="w3l-services3 py-5">
+    <div class="container py-lg-3">
+        <div class="row align-items-center">
+            <div class="col-sm-6">
+               <img src="assets/images/service2.png" class="img-fluid" alt="" />
             </div>
-            <div class="row align-items-center">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="grids-1">
-                        <div class="icon-style">
-                            <i class="fas fa-chart-pie"></i>
-                        </div>
-                        <h4 class="title-head mb-2"><a href="about.html">Digital Solution</a></h4>
-                        <p>Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque
-                            ladase.</p>
-                        <a href="about.html" class="btn btn-style btn-style-primary mt-4">Read More<i
-                                class="fas fa-arrow-right ms-1"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mt-sm-5 mt-4">
-                    <div class="grids-1 active">
-                        <div class="icon-style">
-                            <i class="fas fa-edit"></i>
-                        </div>
-                        <h4 class="title-head mb-2"><a href="about.html">Business Plan</a></h4>
-                        <p>Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque
-                            ladase.</p>
-                        <a href="about.html" class="btn btn-style btn-style-primary mt-4">Read More<i
-                                class="fas fa-arrow-right ms-1"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mt-sm-0 mt-4">
-                    <div class="grids-1">
-                        <div class="icon-style">
-                            <i class="fas fa-chess"></i>
-                        </div>
-                        <h4 class="title-head mb-2"><a href="about.html">StartUp</a></h4>
-                        <p>Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque
-                            ladase.</p>
-                        <a href="about.html" class="btn btn-style btn-style-primary mt-4">Read More<i
-                                class="fas fa-arrow-right ms-1"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mt-sm-5 mt-4">
-                    <div class="grids-1">
-                        <div class="icon-style">
-                            <i class="fas fa-chalkboard-teacher"></i>
-                        </div>
-                        <h4 class="title-head mb-2"><a href="about.html">Expert Advice</a></h4>
-                        <p>Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque
-                            ladase.</p>
-                        <a href="about.html" class="btn btn-style btn-style-primary mt-4">Read More<i
-                                class="fas fa-arrow-right ms-1"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="grids-1">
-                        <div class="icon-style">
-                            <i class="fas fa-clone"></i>
-                        </div>
-                        <h4 class="title-head mb-2"><a href="about.html">Custom Redesign</a></h4>
-                        <p>Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque
-                            ladase.</p>
-                        <a href="about.html" class="btn btn-style btn-style-primary mt-4">Read More<i
-                                class="fas fa-arrow-right ms-1"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mt-sm-5 mt-4">
-                    <div class="grids-1">
-                        <div class="icon-style">
-                            <i class="fas fa-lightbulb"></i>
-                        </div>
-                        <h4 class="title-head mb-2"><a href="about.html">Creative Idea</a></h4>
-                        <p>Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque
-                            ladase.</p>
-                        <a href="about.html" class="btn btn-style btn-style-primary mt-4">Read More<i
-                                class="fas fa-arrow-right ms-1"></i></a>
-                    </div>
-                </div>
+            <div class="col-sm-6 book-info">
+                <h3 class="mb-md-4 mb-3">Capital Management</h3>
+                <p class="mb-md-5 mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est repellendus illum harum quam nihil totam reprehenderit! Ut sed eveniet quos! Asperiores officia, repudiandae similique reiciendis, ab est magnam esse nesciunt ea fuga facere voluptatem.</p>
+                <a href="#URL" class="btn btn-outline-secondary theme-button">Read More</a>
             </div>
         </div>
-    </section>
-    <!-- services block -->
-
-    <!-- content block -->
-    <section class="w3l-covers-14 w3l-covers-14-2 text-center py-5">
-        <div class="container py-md-5 py-4 my-lg-5 my-4">
-            <div class="covers14-text text-center mx-auto pt-lg-5 pb-lg-5 pb-4" style="max-width:700px">
-                <h3 class="title-style text-white">Ready to get started but not sure where to begin?<br>
-                    <span>Let’s figure it out together.</span></h3>
-            </div>
-            <a href="about.html" class="btn btn-style mx-auto mt-4">Let’s Get Started!</a>
-        </div>
-    </section>
-    <!-- //content block -->
-
-    <!-- pricing block -->
-    <section class="pricing-w3l pt-5 pb-4">
-        <div class="container pt-md-5 pt-4">
-            <div class="title-heading-w3 text-center mx-auto mb-md-5 mb-4 pb-md-1" style="max-width:500px;">
-                <h3 class="title-style">Pick the right plan!</h3>
-            </div>
-            <div class="row no-gutters pt-4">
-                <div class="col-lg-4 box-pricing">
-                    <h3 class="text-price">Standard</h3>
-                    <h4>$0<span>per month</span></h4>
-                    <ul>
-                        <li><i class="fas fa-check-circle"></i> Basic website checkup</li>
-                        <li><i class="fas fa-check-circle"></i> SEO recommendations</li>
-                        <li><i class="fas fa-check-circle"></i> Google Ads basic plan</li>
-                        <li class="na"><span><i class="fas fa-check-circle"></i> Social Media plan</span></li>
-                        <li class="na"><span><i class="fas fa-check-circle"></i> Company & Business Setup</span></li>
-                    </ul>
-                    <a href="#button" class="btn btn-style mt-4">Get Started</a>
-                </div>
-
-                <div class="col-lg-4 box-pricing featured">
-                    <h3 class="text-price">Popular</h3>
-                    <h4>$29<span>per month</span></h4>
-                    <ul>
-                        <li><i class="fas fa-check-circle"></i> Basic website checkup</li>
-                        <li><i class="fas fa-check-circle"></i> SEO recommendations</li>
-                        <li><i class="fas fa-check-circle"></i> Google Ads basic plan</li>
-                        <li><i class="fas fa-check-circle"></i> Social Media plan</li>
-                        <li class="na"><span><i class="fas fa-check-circle"></i> Company & Business Setup</span></li>
-                    </ul>
-                    <a href="#button" class="btn btn-style btn-style-2 mt-4">Get Started</a>
-                </div>
-
-                <div class="col-lg-4 box-pricing">
-                    <h3 class="text-price">Premium</h3>
-                    <h4>$49<span>per month</span></h4>
-                    <ul>
-                        <li><i class="fas fa-check-circle"></i> Basic website checkup</li>
-                        <li><i class="fas fa-check-circle"></i> SEO recommendations</li>
-                        <li><i class="fas fa-check-circle"></i> Google Ads basic plan</li>
-                        <li><i class="fas fa-check-circle"></i> Social Media plan</li>
-                        <li><i class="fas fa-check-circle"></i> Company & Business Setup</li>
-                    </ul>
-                    <a href="#button" class="btn btn-style mt-4">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //pricing block -->
+    </div>
+</section>
+<!-- //learn2 -->
+<section class="w3l-services4 py-5">
+    <div class="container py-lg-3">
+        <h3>Ready to start a project ?</h3>
+        <p>Build an online presence with this professional Website Template.</p>
+        <a href="contact.html" class="theme-button btn-primary btn">Get Started</a>
+    </div>
+</section>
 </asp:Content>
 
