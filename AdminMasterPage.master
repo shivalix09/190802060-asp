@@ -1,9 +1,9 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="AdminMasterPage" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head id="Head1" runat="server">
    <title>Dashboard</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -32,6 +32,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     
 </head>
 <body>
+<form id="form1" runat="server">
 <section id="container">
 <!--header start-->
 <header class="header fixed-top clearfix">
@@ -239,10 +240,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <ul class="dropdown-menu extended logout">
                 <li><a href="#"><i class=" fa fa-suitcase"></i>Profile</a></li>
                 <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
-                 <form id="form1" runat="server">
+                 
                     <li><a href="#"><i class="fa fa-key"></i><asp:LinkButton ID="LinkButton1" 
                         runat="server" onclick="LinkButton1_Click">Log Out</asp:LinkButton></a></li>
-                </form>
+                
                 
             </ul>
         </li>
@@ -276,6 +277,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a href="glyphicon.html">glyphicon</a></li>
                         <li><a href="grids.html">Grids</a></li>
                     </ul>
+                </li>
+                 <li>
+                    <a href="ManageUser.aspx">
+                        <i class="fa fa-user"></i>
+                        <span>Manage User </span>
+                    </a>
+                </li>
+                 <li>
+                    <a href="ManageUser.aspx">
+                        <i class="fa fa-user"></i>
+                        <span>Manage Services </span>
+                    </a>
                 </li>
                 <li>
                     <a href="fontawesome.html">
@@ -464,5 +477,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		});
 	</script>
 	<!-- //calendar -->
+    </form>
 </body>
 </html>
