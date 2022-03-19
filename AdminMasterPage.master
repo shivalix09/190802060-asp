@@ -299,11 +299,11 @@ ManageService.aspx<section id="container">
                 <li class="sub-menu">
                     <a href="javascript:;">
                         <i class="fa fa-th"></i>
-                        <span>Data Tables</span>
+                        <span>Manage Item</span>
                     </a>
                     <ul class="sub">
-                        <li><a href="basic_table.html">Basic Table</a></li>
-                        <li><a href="responsive_table.html">Responsive Table</a></li>
+                        <li><a href="ManageCategory.aspx">Manage Category</a></li>
+                        <li><a href="#">Manage Product</a></li>
                     </ul>
                 </li>
                 <li class="sub-menu">
