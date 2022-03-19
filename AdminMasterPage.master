@@ -33,7 +33,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 <form id="form1" runat="server">
-<section id="container">
+ManageService.aspx<section id="container">
 <!--header start-->
 <header class="header fixed-top clearfix">
 <!--logo start-->
@@ -280,12 +280,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </li>
                  <li>
                     <a href="ManageUser.aspx">
-                        <i class="fa fa-user"></i>
+                        <i class="fa fa-tasks"></i>
                         <span>Manage User </span>
                     </a>
                 </li>
                  <li>
-                    <a href="ManageUser.aspx">
+                    <a href="ManageService.aspx">
                         <i class="fa fa-user"></i>
                         <span>Manage Services </span>
                     </a>

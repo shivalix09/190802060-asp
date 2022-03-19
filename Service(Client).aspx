@@ -17,24 +17,18 @@
         <h3>What we provide</h3>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-md-6 mt-0 grids5-info">
-          <a href="#url"><img src="assets/images/b1.jpg" class="img-fluid img-curve" alt="" /></a>
-          <h5>Business Deal</h5>
-          <h4><a href="#url">SEO Solutions</a></h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse? dolores impedit doloremque.</p>
+        <asp:Repeater ID="Repeater1" runat="server">
+            <ItemTemplate>
+             
+       <div class="col-lg-4 offset-md-3 offset-lg-0 col-md-6 mt-lg-0 mt-5 grids5-info">
+         
+          <h5> <%# Eval("title") %> </h5>
+          
+           <p><%# Eval("description").ToString().Length > 180 ? Eval("description").ToString().Substring(0, 180) + "..." : Eval("description").ToString()%></p>
         </div>
-        <div class="col-lg-4 col-md-6 mt-md-0 mt-5 grids5-info">
-          <a href="#url"><img src="assets/images/b3.jpg" class="img-fluid img-curve" alt="" /></a>
-          <h5>Business Deal</h5>
-          <h4><a href="#url">Social Media</a></h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse? dolores impedit doloremque.</p>
-        </div>
-        <div class="col-lg-4 offset-md-3 offset-lg-0 col-md-6 mt-lg-0 mt-5 grids5-info">
-          <a href="#url"><img src="assets/images/b4.jpg" class="img-fluid img-curve" alt="" /></a>
-          <h5>Business Deal</h5>
-          <h4><a href="#url">Promotion Service</a></h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse? dolores impedit doloremque.</p>
-        </div>
+            </ItemTemplate>
+        </asp:Repeater>
+       
       </div>
     </div>
 </div>
